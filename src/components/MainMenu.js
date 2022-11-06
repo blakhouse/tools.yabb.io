@@ -54,7 +54,7 @@ function MainMenu(props) {
               <NavDropdown.Item href="#action/3.4">Generator</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Tutorial</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="about">About</Nav.Link>
+            <Nav.Link to="" href="about">About</Nav.Link>
             <Nav.Link href="#about">About2</Nav.Link>
             <Nav.Link href="/about">About3</Nav.Link>
           </Nav>
