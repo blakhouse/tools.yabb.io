@@ -8,7 +8,6 @@ class HeadConfig extends React.PureComponent {
         <Helmet>
           <title>tools.yabb.io </title>
         </Helmet>
-        ...
       </>
     )
   }
