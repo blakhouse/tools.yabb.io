@@ -5,21 +5,13 @@ import Index from './pages/index.js';
 import About from './pages/about.js';
 import HeadConfig from './components/HeadConfig';
 import React from 'react';
-import {BrowserRouter, Router, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route } from "react-router-dom";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      currentPage: 'Index',
-      currentNumber: 0
-    }
-    this.handleNavigation = this.handleNavigation.bind(this);
   }
-  handleNavigation(newPage) {
-    console.log(newPage)
-    this.setState(this.state.currentPage = newPage);
-  }
+
   render() {
     return (
       <div className="App">
